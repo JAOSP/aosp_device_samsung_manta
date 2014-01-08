@@ -91,8 +91,10 @@ BOARD_SEPOLICY_UNION += \
 	adbd.te \
 	device.te \
 	domain.te \
+	drmserver.te \
 	healthd.te \
 	gpsd.te \
 	file.te \
 	mediaserver.te \
-	system_server.te
+	system_server.te \
+	surfaceflinger.te
