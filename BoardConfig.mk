@@ -96,4 +96,5 @@ BOARD_SEPOLICY_UNION += \
 	gpsd.te \
 	file.te \
 	mediaserver.te \
+        serestorecons \
 	system_server.te
