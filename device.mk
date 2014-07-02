@@ -160,7 +160,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     e2fsck
 
-PRODUCT_PROPERTY_OVERRIDES := \
+PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     ro.opengles.version=196608 \
     ro.sf.lcd_density=320 \
